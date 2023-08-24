@@ -5,3 +5,16 @@
 3. Run the app by running `yarn start`
 
 You can add more scripts (or change existing ones) in the [`package.json`](./package.json) file.
+
+# How to run the tests
+To run the tests enter the terminal.
+
+Go to the Automation folder
+```sh
+cd Automation
+```
+
+Run with the embedded gradle
+```sh
+./gradlew clean test
+```
